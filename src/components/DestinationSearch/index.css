@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  font-family: 'roboto';
+  font-size: 20px;
+}
+.search-bar {
+  display: flex;
+}
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+}

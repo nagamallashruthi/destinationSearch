@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.img {
+  height: 50px;
+  width: 300px;
+  border-radius: 6px;
+}
+.para {
+  font-family: 'roboto';
+  font-size: 15px;
+}
+.list-item {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
