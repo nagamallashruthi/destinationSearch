@@ -2,16 +2,15 @@
 import './index.css'
 
 const DestinationItem = props => {
-  // eslint-disable-next-line no-unused-vars
   const {destinationDetails} = props
-
-  const {imageUrl, name} = destinationDetails
+  const {imgUrl, name} = destinationDetails
 
   return (
-    <li className="list-item">
-      <img src={imageUrl} alt={name} className="img" />
-      <p className="para">{name}</p>
+    <li className="destination-item">
+      <img src={imgUrl} alt={name} className="destination-image" />
+      <p className="name">{name}</p>
     </li>
   )
 }
+
 export default DestinationItem
